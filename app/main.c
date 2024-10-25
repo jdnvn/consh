@@ -23,10 +23,10 @@ int main() {
   char input[100];
   fgets(input, 100, stdin);
 
-  int len = strlen(input);
-  if (len > 0 && input[len - 1] == '\n') {
-      input[len - 1] = 0;
-  }
+  // int len = strlen(input);
+  // if (len > 0 && input[len - 1] == '\n') {
+  //     input[len - 1] = 0;
+  // }
 
   const char* valid_commands[] = {"hi"};
   bool is_valid = false;
