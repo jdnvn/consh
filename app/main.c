@@ -38,7 +38,7 @@ int main() {
     }
   }
   if (!is_valid) {
-    printf("\n%s: command not found", input);
+    printf("%s: command not found\n", input);
   }
 
   return 0;
